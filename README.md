@@ -17,7 +17,7 @@ Assim que o sistema for iniciado, peça ao usuário para digitar a matrícula e 
   - Buscar;
   - Recebimento;
   - Sair;
-  - 
+    
 OBS: Cada opção descrita para o menu da tela terá seu método (função) exclusivo.
 
 ### Requisito – Fazer Login
