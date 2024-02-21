@@ -2,6 +2,7 @@
 
 ### Descrição do problema
 Mariana é dona da farmácia “Mundial Pharma” e precisaautomatizar o seu controle de estoque, ou seja, um sistema onde o seu funcionário possa:
+
   - Fazer Login
   - Cadastrar medicamentos
   - Visualizar medicamentos cadastrados
@@ -22,6 +23,7 @@ OBS: Cada opção descrita para o menu da tela terá seu método (função) excl
 
 ### Requisito – Fazer Login
 Para o usuário fazer login no sistema, o mesmo terá que digitar o número de matrícula e senha.
+
 - Utilize os dados: matrícula será: 67544 e senha será: senha#888.
 - Login com sucesso: redirecione o usuário para o menu principal do sistema
 - Login com Falha: Retorne a mensagem: “Matricula/Senha inválido, verifique os dados e tente novamente” e peça para o usuário digitar os dados novamente.
@@ -29,9 +31,12 @@ Para o usuário fazer login no sistema, o mesmo terá que digitar o número de m
 ### Requisito - Cadastrar
 - Para esta opção, todo medicamento que for cadastrado nosistema, deverá ter:
   - Nome, Principio ativo, Fabricante, Código de barras, Código interno, Quantidade de Estoque.
+    
 - É obrigatório que o usuário digite todos os campos, exceto Quantidade de Estoque e não permita que o mesmo deixe esses campos sem ser preenchidos, caso ele não preencha algum desses campos retorne a mensagem como por exemplo:
   - “Campo [NOME] é obrigatório”.
+    
 - O campo Quantidade de estoque assim que for realizado o cadastro, o valor dele sempre será 0 (ZERO)
+  
 -Após o usuário cadastrar o medicamento, inclua esse novo registro numa lista de medicamentos cadastrados e exiba a mensagem:
   - “Cadastro realizado com sucesso”.
  
