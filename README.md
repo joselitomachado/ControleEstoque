@@ -48,7 +48,7 @@ Para o usuário fazer login no sistema, o mesmo terá que digitar o número de m
 - Após isso, verifique na lista de medicamentos cadastrados se existe algum medicamento com este código de barras.
 - Se existir, retorne os dados do medicamento que contem este código de barras.
 - Caso contrário, retorne a mensagem:
-  - “Medicamento nãoencontrado”.
+  - “Medicamento não encontrado”.
  
 ### Requisito – Recebimento
 - Para esta opção, receba como parâmetro o código de barras de um medicamento e a quantidade de itens recebido.
