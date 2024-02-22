@@ -208,7 +208,7 @@
                     Console.WriteLine($"Fabricante: {medicamento.Fabricante}");
                     Console.WriteLine($"Código de Barra: {medicamento.CodigoBarra}");
                     Console.WriteLine($"Código Interno: {medicamento.CodigoInterno}");
-                    Console.WriteLine($"Quantidade: {medicamento.Quantidade}\n");
+                    Console.WriteLine($"Quantidade em Estoque: {medicamento.Quantidade}\n");
                 }
             }
 
@@ -236,7 +236,7 @@
             Console.WriteLine($"Fabricante: {buscarMedicamento.Fabricante}");
             Console.WriteLine($"Código de Barra: {buscarMedicamento.CodigoBarra}");
             Console.WriteLine($"Código Interno: {buscarMedicamento.CodigoInterno}");
-            Console.WriteLine($"Quantidade: {buscarMedicamento.Quantidade}");
+            Console.WriteLine($"Quantidade em Estoque: {buscarMedicamento.Quantidade}");
 
             Voltar(login);
         }
